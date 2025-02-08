@@ -1,0 +1,288 @@
+/* Reset du style de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5DEB3;
+    color: black;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #FDF5E6;
+    color: #F4A460;
+    text-align: center;
+    padding: 1rem 0;
+    Align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+    justify-content: space-around;
+    Margin-right: 100px;
+
+
+}
+
+
+/* Tous le texte  */
+
+main {
+    padding: 20px;
+}
+
+
+
+.container_sommaire {
+    display: flex;
+    gap: 20px;
+    height: 300px;
+    width: 100%; 
+    justify-content: space-evenly;
+
+}
+
+.sommaire {
+    background-color: #FDF5E6;
+    padding: 20px; /* Ajuster pour ajouter de l'espace intérieur */
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px; 
+    height: auto; 
+
+}
+
+/* Titre du sommaire*/
+
+.container_sommaire h2 {
+    color: #F4A460;
+    text-align: center;
+    margin: 0;
+
+
+
+/* Point du sommaire*/
+
+}
+
+.sommaire ul {
+    list-style-type: none;
+}
+
+.sommaire ul li {
+    margin-bottom: 10px;
+}
+
+.sommaire ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+
+}
+
+.sommaire ul li a:hover {
+    color: #4CAF50;
+}
+
+h2 {
+    color: #F4A460;
+    margin-top: 5px;
+    margin-left: 200px; 
+  
+
+}
+
+
+/* rectte=container  */
+
+
+.recette {
+    background-color:#FDF5E6;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.recette p {
+    justify-content: flex-start;
+    margin-bottom: 10px; 
+    margin-top: 5px; 
+    flex-direction: column;  
+    margin-left: 20px; 
+
+}
+
+
+/* Point des ingrédients */
+
+
+.recette ul {
+    list-style-type: disc;
+    margin-left: 100px;
+    align-items: left;  
+    justify-content: flex-start;
+}
+
+
+
+/* Point des instructions*/
+
+
+.recette ol {
+    list-style-type: decimal;
+    margin-left: 50px;
+
+}
+
+
+
+
+.imgage1 {
+  width: 500px; /* Tailler l'image si nécessaire */
+  height: auto;
+  margin-left: 10px; /* Ajoute un espacement entre le texte et l'image */
+  Margin-right: 10px;
+  align-items: center;  
+  
+}
+
+.imgage2 {
+  width: 400px; /* Tailler l'image si nécessaire */
+  height: auto;
+  margin-left: 10px; /* Ajoute un espacement entre le texte et l'image */
+  Margin-right: 10px;
+  align-items: center;  
+  
+
+}
+
+
+h3 {
+    color: black;
+    margin-top: 5px;
+    margin-left: 50px; 
+    Font-size: 30px;
+}
+
+
+.bas_recette{
+    justify-content: space-evenly;
+
+
+}
+
+
+.fin_recette img {
+  width: 200px; /* Tailler l'image si nécessaire */
+  height: auto;
+  margin-left: 10px; /* Ajoute un espacement entre le texte et l'image */
+  Margin-right: 10px;
+  align-items: center;  
+  
+
+}
+
+
+.fin_recette {
+    background-color:#F5DEB3;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.fin_recette h1 {
+    justify-content: flex-start;
+    margin-bottom: 30px; 
+    margin-top: 30px; 
+    flex-direction: column;  
+    margin-left: 20px; 
+    font-size: 30px;
+
+}
+.fin_recette ul li {
+    color: black;
+    margin-top: 5px;
+    margin-left: 200px; 
+    Font-size: 20px;
+
+}
+
+
+
+footer {
+    background-color: #FDF5E6;
+    padding: 30px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer .contact,
+footer .liens-principaux,
+footer .copyright {
+    flex: 1;
+    min-width: 250px;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 8px;
+}
+
+footer ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .copyright p {
+    font-size: 12px;
+    color: #666;
+}
+
+footer a {
+    color: #333;
+}
+
+footer a:hover {
+    color: #007BFF;
+}
+
+    
